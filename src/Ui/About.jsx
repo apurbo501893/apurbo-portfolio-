@@ -16,7 +16,7 @@ const About = () => {
     { title: "Express", link: "https://reactbd.com/" },
   ];
   return (
-    <Container id="about" className=" p-10 lg:py-24 flex flex-col gap-8">
+    <Container id="about" className=" p-10 lg:py-24 flex flex-col gap-10">
       <SectionTitle titleNo="01" title="About Me" />
       <div className="flex flex-col lg:flex-row gap-4">
         <div className="w-full lg:w-2/3 text-darkText font-medium flex flex-col gap-4">
@@ -45,15 +45,15 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/3 h-80 relative group">
-          <div className="absolute w-full h-96 -left-6 -top-6 rounded-lg ">
-            <div className="w-full h-full relative z-20 flex pl-6 lg:pl-0">
+        <div className="w-full lg:w-1/3 h-96 relative group ">
+          <div className="absolute w-full h-96 -left-1 -top-2 rounded-lg ">
+            <div className="w-96 h-96 relative z-20 flex pl-6 lg:pl-0">
               <img
                 src={profileImg1}
                 alt="profile"
                 className="rounded-lg lg:w-full h-full object-cover"
               />
-              <div className="hidden lg:inline-block absolute w-full h-90  bg-designColor/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300" />
+              <div className="hidden lg:inline-block absolute w-96 h-96  bg-designColor/20 rounded-md top-1 left-4 group-hover:bg-transparent duration-300" />
             </div>
           </div>
           <div className="hidden lg:inline-flex w-full h-96 border-2 border-designColor rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300" />

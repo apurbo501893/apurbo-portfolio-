@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { logo } from "./Assets/images";
 import { Link } from "react-scroll";
 import resume from "../../public/resume.pdf";
-import { delay, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import SocialLinks from "./SocialLinks";
 const navigation = [
