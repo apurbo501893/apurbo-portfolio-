@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
-import { logo } from "./Assets/images";
+import { logo2 } from "./Assets/images";
 import { Link } from "react-scroll";
 import resume from "../../public/resume.pdf";
-import {  motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import SocialLinks from "./SocialLinks";
 const navigation = [
@@ -25,7 +25,7 @@ const Header = () => {
     <div className="h-20 shadow-lg shadow-designColor/10 px-4 lg:px-0 sticky top-0 z-50 bg-primaryColor">
       <div className="max-w-[1440px] mx-auto flex items-center h-full justify-between">
         <img
-          src={logo}
+          src={logo2}
           alt="logo"
           className="w-26 h-16 opacity-75 hover:opacity-100 duration-200 cursor-pointer"
         />
